@@ -1,4 +1,4 @@
-KDIR=../../k
+KDIR=../../../k
 
 repl:
 	@socat READLINE EXEC:"$(KDIR)/k $(KDIR)/repl.k"
